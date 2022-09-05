@@ -18,7 +18,7 @@ const Categories = (place, { cat }) => {
       <SearchInput></SearchInput>
       {categories.map((category, index) => (
         <Link key={index} href={`/category/${category.slug}`}>
-          {/* <span
+          <span
             className={`text-gray-200  font-bold cursor-pointer block hover:text-white p-2 mb-1 lg:mx-3  xl:text-base  lg:text-right  ${
               place.place == category.name.toLowerCase().replaceAll(" ", "-")
                 ? "bg-white text-gray-500 hover:text-black"
@@ -26,7 +26,7 @@ const Categories = (place, { cat }) => {
             }`}
           >
             {category.name}
-          </span> */}
+          </span>
         </Link>
       ))}
       <Link href={`/curriculum-vitae`}>
