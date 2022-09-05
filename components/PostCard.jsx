@@ -15,12 +15,12 @@ const PostCard = ({ post }) => {
             className="object-top absolute h-52 w-full object-contain shadow-lg "
           ></img>
         </div>
-        {/* <h1
+        <h1
           className="transition duration-700 text-center mb-3 cursor-pointer text-gray-700
        hover:text-gray-900 text-1xl font-semibold"
         >
           <Link href={`/post/${post.slug}`}>{post.categories[0].name}</Link>
-        </h1> */}
+        </h1>
         <h1
           className="transition duration-200 text-center mb-3  text-gray-700
        hover:text-gray-900 text-xl font-semibold"
