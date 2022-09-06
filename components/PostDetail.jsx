@@ -9,12 +9,12 @@ import "prismjs/plugins/line-numbers/prism-line-numbers.css";
 
 const PostDetail = ({ post }) => {
   const content = post.content.raw;
-  console.log(post);
+  // console.log(post);
   const references = [];
   React.useEffect(() => {
     Prism.highlightAll();
   }, []);
-  console.log(post);
+  // console.log(post);
 
   return (
     <div>
