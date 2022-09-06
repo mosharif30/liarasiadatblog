@@ -9,7 +9,7 @@ const About = ({ posts }) => {
   return (
     <div className="container mx-auto px-0 mb-2 ">
       <div className="grid  grid-cols-1 lg:grid-cols-12 gap-3">
-        <div className="xl:col-span-2 lg:col-span-3 col-span-1 bg-customGray">
+        <div className="xl:col-span-2 lg:col-span-3 col-span-1 bg-customBlue">
           <div className="lg:sticky relative top-4 ">
             <Categories place="curriculum-vitae" />
             {/* <PostWidget /> */}
@@ -17,7 +17,7 @@ const About = ({ posts }) => {
         </div>
 
         <div className="grid   lg:col-span-9 col-span-1 ">
-          <div className="bg-customGray text-white p-5 text-2xl my-1 mb-2">
+          <div className="bg-customBlue text-white p-5 text-2xl my-1 mb-2">
             CURRICULUM VITAE
           </div>
           <img
@@ -29,7 +29,7 @@ const About = ({ posts }) => {
             Amir Siadat - A Journalist, Critic and Curator of cinema. Born 02
             February 1982.
           </span>
-          <div className="bg-customGray text-white p-5 text-xl my-2">
+          <div className="bg-customBlue text-white p-5 text-xl my-2">
             Education
           </div>
           <span>
@@ -39,7 +39,7 @@ const About = ({ posts }) => {
             Ritual plays of Ancient Iran, Under the supervision of Dr. Hamid
             Amjad with a grade of 19.8 (out of 20)
           </span>
-          <div className="bg-customGray text-white p-5 text-xl my-3">
+          <div className="bg-customBlue text-white p-5 text-xl my-3">
             Press Experience (translator, researcher, critic) and collaboration
             with cinema and theatre publications in Iran:
           </div>
@@ -52,7 +52,7 @@ const About = ({ posts }) => {
             Nafeh, Bāzigar, Asemān, Chāhār, Angah, Daftarhā-ye theater, Etemād
             Melli and Etemad-e Melli daily.
           </span>
-          <div className="bg-customGray text-white p-5 text-xl my-3">
+          <div className="bg-customBlue text-white p-5 text-xl my-3">
             Executive Experience :
           </div>
           <span>
@@ -61,14 +61,14 @@ const About = ({ posts }) => {
             <br /> - Director of the Cinematheque of Art & Experience Cinema
             (2017 to present)
           </span>
-          <div className="bg-customGray text-white p-5 text-xl my-3">
+          <div className="bg-customBlue text-white p-5 text-xl my-3">
             Educational Experiences
           </div>
           <span>
             Trainer on the basics of cinema and film analysis at the school of
             fine arts
           </span>
-          <div className="bg-customGray text-white p-5 text-xl my-3">
+          <div className="bg-customBlue text-white p-5 text-xl my-3">
             Awards
           </div>
           <span>
@@ -79,7 +79,7 @@ const About = ({ posts }) => {
             writers of the House of the Theater for interview with Morteza
             Ahmadi
           </span>
-          <div className="bg-customGray text-white p-5 text-xl my-3">
+          <div className="bg-customBlue text-white p-5 text-xl my-3">
             Conference
           </div>
           <span>
@@ -102,7 +102,7 @@ const About = ({ posts }) => {
               https://www.youtube.com/watch?v=bXdBlZKRK3g
             </a>
           </span>
-          <div className="bg-customGray text-white p-5 text-xl my-3">
+          <div className="bg-customBlue text-white p-5 text-xl my-3">
             Movie Reviews
           </div>
           <span>
@@ -157,7 +157,7 @@ const About = ({ posts }) => {
             Donyāye Tasvir, No. 203 (May 2011) <br />- “Bahram Beizaei`s Vaghty
             Hameh Khabim (When We are All Asleep)” Etemād-e Melli (May 2009)
           </span>
-          <div className="bg-customGray text-white p-5 text-xl my-3">
+          <div className="bg-customBlue text-white p-5 text-xl my-3">
             Articles Related to cinema
           </div>
           <span>
@@ -217,7 +217,7 @@ const About = ({ posts }) => {
             Cinema va Adabiāt No.32, (Spring 2012) <br />- “Peter Greenaway and
             the Issue of Representation” Cinema va Adabiāt, No.31 (Winter 2011)
           </span>
-          <div className="bg-customGray text-white p-5 text-xl my-3">
+          <div className="bg-customBlue text-white p-5 text-xl my-3">
             Play Reviews
           </div>
           <span>
@@ -243,7 +243,7 @@ const About = ({ posts }) => {
             Namāyesh , No.105-106 (June 2008)
             <br /> - “Bahram Beizaei`s Afra” Namāyesh , No.101-102, (March 2007)
           </span>
-          <div className="bg-customGray text-white p-5 text-xl my-3">
+          <div className="bg-customBlue text-white p-5 text-xl my-3">
             Articles Related to Theatre{" "}
           </div>
           <span>
@@ -261,7 +261,7 @@ const About = ({ posts }) => {
             Vision of Children on the Plays of Siahbazi” Tak , No.3 (Spring
             2010)
           </span>
-          <div className="bg-customGray text-white p-5 text-xl my-3">
+          <div className="bg-customBlue text-white p-5 text-xl my-3">
             Interviews{" "}
           </div>
           <span>
@@ -270,7 +270,7 @@ const About = ({ posts }) => {
             about his works related to Rohouzi theatre”, Daftarhā-ye Theatr,
             No.13, (April 2017)
           </span>
-          <div className="bg-customGray text-white p-5 text-xl my-3">
+          <div className="bg-customBlue text-white p-5 text-xl my-3">
             Translations
           </div>
           <span>
@@ -279,7 +279,7 @@ const About = ({ posts }) => {
             “An introduction of Kathakali (Indian Theater)” Bazigār, No.2
             (Winter 2011)
           </span>
-          <div className="bg-customGray text-white p-5 text-xl my-3">Book</div>
+          <div className="bg-customBlue text-white p-5 text-xl my-3">Book</div>
           <span>
             - “Shatranj-e Bād [The Chess Game of the Wind]: Reviews and
             Interviews” (With Sahar Khoshnam” [About a film by Mohammad Reza

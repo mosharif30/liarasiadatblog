@@ -9,7 +9,7 @@ const About = ({ posts }) => {
   return (
     <div className="container mx-auto px-0 mb-2 ">
       <div className="grid  grid-cols-1 lg:grid-cols-12 gap-3">
-        <div className="xl:col-span-2 lg:col-span-3 col-span-1 bg-customGray">
+        <div className="xl:col-span-2 lg:col-span-3 col-span-1 bg-customBlue">
           <div className="lg:sticky relative top-4 ">
             <Categories place="about" />
             {/* <PostWidget /> */}
@@ -17,7 +17,7 @@ const About = ({ posts }) => {
         </div>
 
         <div className="grid   lg:col-span-9 xl:col-span-10 col-span-1 ">
-          <div className="bg-customGray text-white p-5 text-2xl my-auto">
+          <div className="bg-customBlue text-white p-5 text-2xl my-auto">
             ABOUT
           </div>
           <span className=" p-5 text-xl my-auto">
@@ -33,7 +33,7 @@ const About = ({ posts }) => {
             first viewing. Please do reference this website if you quote a part
             of this site's writings.
           </span>
-          <div className="bg-customGray text-white p-5 text-2xl my-auto">
+          <div className="bg-customBlue text-white p-5 text-2xl my-auto">
             Contact
           </div>
           <span className=" p-5 text-xl my-auto">

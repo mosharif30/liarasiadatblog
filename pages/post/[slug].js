@@ -21,7 +21,7 @@ const PostDetails = ({ post }) => {
     <>
       <div className="container mx-auto px-0 mb-2 ">
         <div className="grid  grid-cols-1 lg:grid-cols-12 gap-3 ">
-          <div className="xl:col-span-2 lg:col-span-3 col-span-1 bg-customGray">
+          <div className="xl:col-span-2 lg:col-span-3 col-span-1 bg-customBlue">
             <div className="lg:sticky relative top-4">
               <Categories place={post.categories[0].slug} />
               {/* <PostWidget

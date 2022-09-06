@@ -13,7 +13,7 @@ const CategoryPost = ({ posts }) => {
   return (
     <div className="container mx-auto px-0 mb-2 ">
       <div className="grid  grid-cols-1 lg:grid-cols-12 gap-3">
-        <div className="xl:col-span-2 lg:col-span-3 col-span-1 bg-customGray">
+        <div className="xl:col-span-2 lg:col-span-3 col-span-1 bg-customBlue">
           <div className="lg:sticky relative top-4">
             <Categories place={router.query.slug} />
             {/* <PostWidget /> */}
@@ -21,7 +21,7 @@ const CategoryPost = ({ posts }) => {
         </div>
 
         <div className="grid   lg:col-span-9 xl:col-span-10 col-span-1 ">
-          <div className="bg-customGray text-white p-5 text-2xl my-auto">
+          <div className="bg-customBlue text-white p-5 text-2xl my-auto">
             {router.query.slug.toUpperCase()}
           </div>
           <div className="grid  lg:grid-cols-2  mt-2 gap-6">
