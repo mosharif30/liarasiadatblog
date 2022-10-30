@@ -1,15 +1,16 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import Router from "next/router";
+import Router, { useRouter } from "next/router";
 
 const SearchInput = () => {
+  const router = useRouter();
   const { register, handleSubmit } = useForm();
   const onSubmit = (data, e) => {
     console.log(data.searched);
     Router.push({
       pathname: "/searchResult",
       query: data,
-    });
+    }).then(() => router.reload());
   };
   const onError = (errors, e) => console.log(errors, e);
   return (

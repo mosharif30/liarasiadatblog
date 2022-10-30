@@ -125,26 +125,40 @@ export const getCategoryPost = async (slug) => {
   return result.postsConnection.edges;
 };
 
-export const getSearch = async () => {
-  const query = gql`
-    query MyQuery {
-      postsConnection {
+
+
+export const getSearchPost = async (val) => {
+  const squery = gql`
+    query getSearchPost($val: String) {
+      postsConnection(where: { _search: $val }) {
         edges {
           cursor
           node {
+            author {
+              bio
+              name
+              id
+              photo {
+                url
+              }
+            }
+            createdAt
+            slug
             title
-
+            excerpt
             featuredImage {
               url
             }
-           
+            categories {
+              name
+              slug
+            }
           }
         }
       }
     }
   `;
-
-  const result = await request(graphqlAPI, query);
+  const result = await request(graphqlAPI, squery, { val });
 
   return result.postsConnection.edges;
 };

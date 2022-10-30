@@ -14,7 +14,7 @@ const Categories = (place, { cat }) => {
   //categories.map((category) => console.log(category.name.toLowerCase()));
   return (
     <div className="    lg:pt-3 pb-4 lg:mb-10  ">
-      {/* <SearchInput></SearchInput> */}
+       <SearchInput></SearchInput> */
       {categories.map((category, index) => (
         <Link key={index} href={`/category/${category.slug}`}>
           <span
