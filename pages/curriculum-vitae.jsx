@@ -28,7 +28,7 @@ const About = ({ posts }) => {
               CURRICULUM VITAE
             </div>
             <img
-              src="./Siadat.jpeg"
+              src="./siadat2.jpg"
               alt="Amir Siadat"
               className="object-top  h-96 w-96 object-cover shadow-lg "
             ></img>
