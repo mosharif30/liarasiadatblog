@@ -169,12 +169,15 @@ const About = ({ posts }) => {
               2009)
             </span>
             <div className="bg-customBlue text-white p-5 text-xl my-3">
-              Articles Related to cinema
+              Articles Related to Cinema
             </div>
             <span>
-              - “Kianoush Ayyari`s Realism” Film-e Emruz, No.6 (October 2021){" "}
+              -“Concretization in Ernst Lubitsch`s Movies (focusing on his
+              American sound films)” Film-e Emruz, (No.19, December 2022) -
+              <br />
+              -“Kianoush Ayyari`s Realism” Film-e Emruz, No.6 (October 2021){" "}
               <br />- “Azad Cinema: The movement of Amateur Cinema in Iran”
-              Film-e Emruz, No.1, April 2021) <br />- “The Relationship Between
+              Film-e Emruz, No.1, (April 2021) <br />- “The Relationship Between
               William Shakespeare and Akira Kurosawa” Cinema va Adabiāt, No.74
               (July 2019)
               <br />- “Andrei Tarkovsky's Cinema Through the Lens of Sacrifice"
@@ -262,6 +265,8 @@ const About = ({ posts }) => {
               Articles Related to Theatre{" "}
             </div>
             <span>
+              -"Reality and Judgment in Akbar Radi's plays" (Daftārha-ye Theatr,
+              No.15, January 2023) <br />
               - “Criticism of Patriarchy and Thanatos in Bahram Beizaei’s Works”
               The youtube chanel of Iranian Studies at Stanford University,
               (Summer 2021) <br />- “Abbas Naalbandian Through the Lens of
