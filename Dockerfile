@@ -1,6 +1,5 @@
 FROM node:16-alpine AS deps
 
-ENV HTTPS_PROXY="http://fodev.org:8118"
 
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
