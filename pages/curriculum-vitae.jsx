@@ -173,7 +173,7 @@ const About = ({ posts }) => {
             </div>
             <span>
               -“Concretization in Ernst Lubitsch`s Movies (focusing on his
-              American sound films)” Film-e Emruz, (No.19, December 2022) -
+              American sound films)” Film-e Emruz, (No.19, December 2022) 
               <br />
               -“Kianoush Ayyari`s Realism” Film-e Emruz, No.6 (October 2021){" "}
               <br />- “Azad Cinema: The movement of Amateur Cinema in Iran”
