@@ -97,14 +97,18 @@ const About = ({ posts }) => {
               University)
               <br />
               <a
-                className="text-blue-600 hover:text-red-600"
+                className="text-customBlue hover:text-red-900"
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://iranian-studies.stanford.edu/beyzaie-conference"
               >
                 https://iranian-studies.stanford.edu/beyzaie-conference
               </a>
               <br />
               <a
-                className="text-blue-600 hover:text-red-600"
+                className="text-customBlue hover:text-red-900"
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.youtube.com/watch?v=bXdBlZKRK3g"
               >
                 https://www.youtube.com/watch?v=bXdBlZKRK3g
@@ -173,7 +177,7 @@ const About = ({ posts }) => {
             </div>
             <span>
               -“Concretization in Ernst Lubitsch`s Movies (focusing on his
-              American sound films)” Film-e Emruz, (No.19, December 2022) 
+              American sound films)” Film-e Emruz, (No.19, December 2022)
               <br />
               -“Kianoush Ayyari`s Realism” Film-e Emruz, No.6 (October 2021){""}
               <br />- “Azad Cinema: The movement of Amateur Cinema in Iran”
@@ -233,6 +237,27 @@ const About = ({ posts }) => {
               Cinema va Adabiāt No.32, (Spring 2012) <br />- “Peter Greenaway
               and the Issue of Representation” Cinema va Adabiāt, No.31 (Winter
               2011)
+              <br />
+              <a
+                className="text-customBlue hover:text-red-900"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.sensesofcinema.com/2024/feature-articles/echoes-of-illusions-mythical-reverberations-exploring-folklore-and-tazieh-in-ballad-of-tara/"
+              >
+                - “Folklore and Ta’zieh in Ballad of Tara (Bahrab Beyzaie))”,
+                Senses of Cinema (issue 108, January 2024)
+              </a>
+              <br />
+              <a
+                className="text-customBlue hover:text-red-900"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.sensesofcinema.com/2023/feature-articles/a-face-in-the-crowd-ritual-mythological-and-political-contexts-in-stranger-and-the-fog-bahram-beiyzaie-1976/"
+              >
+                - “A Face in the Crowd: Ritual, Mythological and Political
+                contexts in Stranger and the Fog (Bahrab Beyzaie))”, Senses of
+                Cinema (issue 107, November 2023)
+              </a>
             </span>
             <div className="bg-customBlue text-white p-5 text-xl my-3">
               Play Reviews
@@ -301,12 +326,14 @@ const About = ({ posts }) => {
               (Winter 2011)
             </span>
             <div className="bg-customBlue text-white p-5 text-xl my-3">
-              Book
+              Books
             </div>
             <span>
               - “Shatranj-e Bād [The Chess Game of the Wind]: Reviews and
               Interviews” (With Sahar Khoshnam” [About a film by Mohammad Reza
               Aslani]). Tehran: Maktab-e Shahidsaless. 2022
+              <br />- “Yek Daricheh, Yek Cherāgh [Hatch & Light]: A collection
+              of Cinematic Articles”, Tehran: Hamrokh, 2024.
             </span>
           </div>
         </div>
