@@ -244,7 +244,7 @@ const About = ({ posts }) => {
                 rel="noopener noreferrer"
                 href="https://www.sensesofcinema.com/2024/feature-articles/echoes-of-illusions-mythical-reverberations-exploring-folklore-and-tazieh-in-ballad-of-tara/"
               >
-                - “Folklore and Ta’zieh in Ballad of Tara (Bahrab Beyzaie))”,
+                - “Folklore and Ta’zieh in Ballad of Tara (Bahram Beyzaie))”,
                 Senses of Cinema (issue 108, January 2024)
               </a>
               <br />
@@ -255,7 +255,7 @@ const About = ({ posts }) => {
                 href="https://www.sensesofcinema.com/2023/feature-articles/a-face-in-the-crowd-ritual-mythological-and-political-contexts-in-stranger-and-the-fog-bahram-beiyzaie-1976/"
               >
                 - “A Face in the Crowd: Ritual, Mythological and Political
-                contexts in Stranger and the Fog (Bahrab Beyzaie))”, Senses of
+                contexts in Stranger and the Fog (Bahram Beyzaie))”, Senses of
                 Cinema (issue 107, November 2023)
               </a>
             </span>
