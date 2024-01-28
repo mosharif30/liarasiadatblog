@@ -176,6 +176,27 @@ const About = ({ posts }) => {
               Articles Related to Cinema
             </div>
             <span>
+              <a
+                className="text-customBlue hover:text-red-900"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.sensesofcinema.com/2024/feature-articles/echoes-of-illusions-mythical-reverberations-exploring-folklore-and-tazieh-in-ballad-of-tara/"
+              >
+                - “Folklore and Ta’zieh in Ballad of Tara (Bahram Beyzaie))”,
+                Senses of Cinema (issue 108, January 2024)
+              </a>
+              <br />
+              <a
+                className="text-customBlue hover:text-red-900"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.sensesofcinema.com/2023/feature-articles/a-face-in-the-crowd-ritual-mythological-and-political-contexts-in-stranger-and-the-fog-bahram-beiyzaie-1976/"
+              >
+                - “A Face in the Crowd: Ritual, Mythological and Political
+                contexts in Stranger and the Fog (Bahram Beyzaie))”, Senses of
+                Cinema (issue 107, November 2023)
+              </a>
+              <br />
               -“Concretization in Ernst Lubitsch`s Movies (focusing on his
               American sound films)” Film-e Emruz, (No.19, December 2022)
               <br />
@@ -238,26 +259,6 @@ const About = ({ posts }) => {
               and the Issue of Representation” Cinema va Adabiāt, No.31 (Winter
               2011)
               <br />
-              <a
-                className="text-customBlue hover:text-red-900"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.sensesofcinema.com/2024/feature-articles/echoes-of-illusions-mythical-reverberations-exploring-folklore-and-tazieh-in-ballad-of-tara/"
-              >
-                - “Folklore and Ta’zieh in Ballad of Tara (Bahram Beyzaie))”,
-                Senses of Cinema (issue 108, January 2024)
-              </a>
-              <br />
-              <a
-                className="text-customBlue hover:text-red-900"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.sensesofcinema.com/2023/feature-articles/a-face-in-the-crowd-ritual-mythological-and-political-contexts-in-stranger-and-the-fog-bahram-beiyzaie-1976/"
-              >
-                - “A Face in the Crowd: Ritual, Mythological and Political
-                contexts in Stranger and the Fog (Bahram Beyzaie))”, Senses of
-                Cinema (issue 107, November 2023)
-              </a>
             </span>
             <div className="bg-customBlue text-white p-5 text-xl my-3">
               Play Reviews
