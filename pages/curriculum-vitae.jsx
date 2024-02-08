@@ -33,8 +33,7 @@ const About = ({ posts }) => {
               className="object-top  h-96 w-96 object-cover shadow-lg "
             ></img>
             <span className="text-xl py-4">
-              Amir Siadat - A Journalist, Critic and Curator of cinema. Born 02
-              February 1982.
+              Amir Siadat - A Journalist, Critic and Curator of cinema.
             </span>
             <div className="bg-customBlue text-white p-5 text-xl my-2">
               Education
